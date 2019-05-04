@@ -1,0 +1,5 @@
+.caption-inner .zoom,
+.caption-inner > h2,
+#filters li {
+  opacity: 0;
+}

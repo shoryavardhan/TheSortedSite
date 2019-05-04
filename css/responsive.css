@@ -1,0 +1,259 @@
+@media (max-width: 1024px) and (orientation:landscape) {
+  .main-logo {
+    margin: 30px 0 30px;
+  }
+  .main-logo img {
+    width: 30%;
+  }
+  .content-rotator {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 650px;
+    width: 90%;
+  }
+  #nav-boxes a {
+    font-size: 15px;
+  }
+  #nav-boxes a i {
+    margin-bottom: 6px;
+    font-size: 20px;
+  }
+}
+@media (min-width:768px) and (max-width:979px) {
+  .main-logo {
+    margin: 50px 0 60px;
+  }
+  .member img {
+    width: 150px;
+    height: 150px;
+  }
+  .member-pic-h {
+	-moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 10px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left:-75px;
+  width: 150px;
+  height: 150px;
+  opacity: 0;
+  border-radius: 50%;
+}
+  .parallax {
+    background-attachment: scroll;
+  }
+  .mix {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  .mix img {
+    width: 200px;
+    height: 200px;
+  }
+  .step-box h3 .num {
+    margin: 12px 10px 12px 0;
+  }
+  .step-box h3 {
+    line-height: 26px;
+  }
+}
+@media (min-width:481px) and (max-width: 767px) {
+  .our_team .member {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .sticky {
+    display: none;
+  }
+  .main-logo {
+    margin: 10px 0;
+  }
+  .main-logo img {
+    width: 30%;
+  }
+  .content-rotator {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 650px;
+    width: 90%;
+  }
+  #nav-boxes a {
+    font-size: 16px;
+  }
+  #nav-boxes a .fs1 {
+    display: inline-block;
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 30px;
+    border-radius: 50%;
+    border: rgba(255,255,255,0.5) solid 1px;
+    padding: 15px;
+    line-height: 42px;
+    transition: all 0.5s;
+    width: 42px;
+    height: 42px;
+  }
+  #prev, #next {
+    display: none !important;
+  }
+  #pages.affix {
+    padding-top: 0;
+  }
+  #about-us, #portfolio, #services, #contact, footer {
+    padding: 50px 0;
+  }
+  .our_team .member {
+    width: 100%;
+  }
+  [class*="span"] {
+    padding: 10px;
+  }
+  #filters {
+    position: absolute;
+    z-index: 8;
+    background: #fff;
+    left: 50%;
+    margin-left: -60px;
+  }
+  #filters li {
+    float: none;
+    clear: both;
+    display: block;
+    padding: 0;
+  }
+  #filters li a {
+    color: #fff;
+    background: #1b1b1b;
+  }
+  #filters li a.selected {
+    background: #fff;
+    color: #000;
+  }
+  #trigger_portfolio {
+    position: relative;
+    z-index: 9;
+    margin: 0 auto;
+    float: none;
+    text-decoration: none;
+  }
+  .mix {
+    width: 49.9%;
+    margin: 0;
+    height: auto;
+  }
+  .mix img{
+    width: 100%;
+    height: auto;
+  }
+  .testimonial-box {
+    width: 90%;
+  }
+  .caption-inner .zoom i{
+    font-size: 14px;
+  }
+  .caption-inner h2 {
+    font-size: 20px;
+  }
+  .mobilelogo a{
+text-decoration: none !important;
+color: white !important;
+font-size: 22px;
+display: block;
+float: left;
+margin: 25px 0 25px 25px;
+
+  }
+  .mobilelogo:hover
+  {
+text-decoration: none;
+color: #78B79B;
+
+  }
+  #mob-header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background: #1b1b1b;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+  }
+  #mob-header.affix-top {
+    top: -100px;
+    transition: all .5s;
+  }
+  #mob-header.affix {
+    transition: all .5s;
+    top: 0;
+    z-index: 9999;
+  }
+  .moblogo img {
+    width: auto;
+    height: 30px;
+    margin: 10px 0 10px 30px;
+  }
+  .menutrigger {
+    display: block !important;
+    color: white;
+    float: right;
+    margin: 25px 35px 0 0;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  .menutrigger:hover {
+    text-decoration: none;
+    color: #78B79B;
+  }
+
+  #navmobile {
+    position: relative;
+    font-size: 1em;
+  }
+  #navmobile ul {
+    position: absolute;
+    right: 10px;
+    top: 100%;
+    display: none;
+    width: 140px;
+   font-size: 0.7em;
+    text-decoration: none;
+  }
+  #navmobile ul li {
+    display: block;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  #navmobile ul a {
+    display: block;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+  }
+  #navmobile ul a:hover {
+    text-decoration: none;
+    color: #78B79B;
+    font-size: 1.5em;
+  }
+  #navmobile ul a .fs3 {
+    margin-right: 5px;
+    width: 20px;
+    text-decoration: none;
+    float: left;
+    font-size: 1.5em;
+  }
+  #navmobile a {
+    background: #1b1b1b;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+
+}
+@media (max-width: 320px) {
+
+}
